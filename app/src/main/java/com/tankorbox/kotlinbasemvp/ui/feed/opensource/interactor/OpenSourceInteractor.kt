@@ -1,0 +1,10 @@
+import io.reactivex.Observable
+import javax.inject.Inject
+
+class OpenSourceInteractor @Inject internal constructor(preferenceHelper: PreferenceHelper, apiHelper: ApiHelper) : BaseInteractor(preferenceHelper, apiHelper), OpenSourceMVPInteractor {
+
+    override fun getOpenSourceList(): Observable<OpenSourceResponse> {
+        return apiHelper.getOpenSourceApiCall()
+    }
+
+}

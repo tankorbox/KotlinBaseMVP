@@ -1,0 +1,53 @@
+buildscript {
+    ext.kotlin_version = '1.3.11'
+    repositories {
+        google()
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // Sdk and tools
+    minSdkVersion = 16
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.2'
+
+    // App dependencies
+    kotlinVersion = kotlin_version
+    supportLibraryVersion = '26.1.0'
+    gsonVersion = '2.8.0'
+    calligraphyVersion = '2.2.0'
+    glideVersion = '3.7.0'
+    rx2FastAndroidNetworking = '1.0.1'
+    dagger2Version = '2.21'
+    rxjava2Version = '2.x.x'
+    rxandroidVersion = '2.1.0'
+    butterKnifeVersion = '10.0.0'
+    roomDatabaseVersion = '1.0.0'
+    placeholderviewVersion = '0.6.1'
+    debugDBVersion = '1.0.3'
+    timberVersion = '4.6.0'
+
+    //Test dependencies
+    junitVersion = '4.12'
+    espressoVersion = '2.2.2'
+    mockitoVersion = '2.7.1'
+    androidKTXVersion = '1.0.1'
+}

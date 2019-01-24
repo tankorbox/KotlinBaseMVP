@@ -1,0 +1,1 @@
+data class QuestionCardData(val option: List<Options>, val question: Question)
