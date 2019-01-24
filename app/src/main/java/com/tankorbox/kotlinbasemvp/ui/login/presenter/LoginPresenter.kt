@@ -1,3 +1,11 @@
+package com.tankorbox.kotlinbasemvp.ui.login.presenter
+
+import com.tankorbox.kotlinbasemvp.data.network.LoginResponse
+import com.tankorbox.kotlinbasemvp.ui.base.presenter.BasePresenter
+import com.tankorbox.kotlinbasemvp.ui.login.interactor.LoginMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.login.view.LoginMVPView
+import com.tankorbox.kotlinbasemvp.util.AppConstants
+import com.tankorbox.kotlinbasemvp.util.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 

@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.opensource.view
+
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -5,6 +7,8 @@ import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.data.network.OpenSource
+import com.tankorbox.kotlinbasemvp.util.extension.loadImage
 import kotlinx.android.synthetic.main.item_blog_list.view.*
 
 class OpenSourceAdapter(openSourceListItems: MutableList<OpenSource>) :

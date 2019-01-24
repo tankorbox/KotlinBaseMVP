@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.data.network
+
 import io.reactivex.Observable
 
 interface ApiHelper {

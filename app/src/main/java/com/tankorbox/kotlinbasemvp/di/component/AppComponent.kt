@@ -1,4 +1,9 @@
+package com.tankorbox.kotlinbasemvp.di.component
+
 import android.app.Application
+import com.tankorbox.kotlinbasemvp.MvpApp
+import com.tankorbox.kotlinbasemvp.di.builder.ActivityBuilder
+import com.tankorbox.kotlinbasemvp.di.module.AppModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule

@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.blog.view
+
 import android.content.Intent
 import android.net.Uri
 import android.view.LayoutInflater
@@ -5,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.data.network.Blog
+import com.tankorbox.kotlinbasemvp.util.extension.loadImage
 import kotlinx.android.synthetic.main.item_blog_list.view.*
 
 class BlogAdapter(private val blogListItems: MutableList<Blog>) : RecyclerView.Adapter<BlogAdapter.BlogViewHolder>() {

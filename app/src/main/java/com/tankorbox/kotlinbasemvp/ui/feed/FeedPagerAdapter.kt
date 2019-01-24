@@ -1,6 +1,10 @@
+package com.tankorbox.kotlinbasemvp.ui.feed
+
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
+import com.tankorbox.kotlinbasemvp.ui.feed.blog.view.BlogFragment
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.view.OpenSourceFragment
 
 class FeedPagerAdapter(fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
 

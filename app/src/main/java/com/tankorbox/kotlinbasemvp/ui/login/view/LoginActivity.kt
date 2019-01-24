@@ -1,7 +1,14 @@
+package com.tankorbox.kotlinbasemvp.ui.login.view
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.ui.base.view.BaseActivity
+import com.tankorbox.kotlinbasemvp.ui.login.interactor.LoginMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.login.presenter.LoginMVPPresenter
+import com.tankorbox.kotlinbasemvp.ui.main.view.MainActivity
+import com.tankorbox.kotlinbasemvp.util.AppConstants
 import kotlinx.android.synthetic.main.activity_login.*
 import javax.inject.Inject
 

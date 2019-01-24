@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.util.extension
+
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 

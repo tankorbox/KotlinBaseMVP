@@ -1,7 +1,11 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.view
+
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayout
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.ui.base.view.BaseActivity
+import com.tankorbox.kotlinbasemvp.ui.feed.FeedPagerAdapter
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector

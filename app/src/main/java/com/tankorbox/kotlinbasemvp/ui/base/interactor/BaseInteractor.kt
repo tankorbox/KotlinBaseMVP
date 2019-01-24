@@ -1,3 +1,9 @@
+package com.tankorbox.kotlinbasemvp.ui.base.interactor
+
+import com.tankorbox.kotlinbasemvp.data.network.ApiHelper
+import com.tankorbox.kotlinbasemvp.data.preferences.PreferenceHelper
+import com.tankorbox.kotlinbasemvp.util.AppConstants
+
 open class BaseInteractor() : MVPInteractor {
 
     lateinit var preferenceHelper: PreferenceHelper

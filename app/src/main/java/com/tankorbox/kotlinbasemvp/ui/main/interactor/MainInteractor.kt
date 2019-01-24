@@ -1,3 +1,12 @@
+package com.tankorbox.kotlinbasemvp.ui.main.interactor
+
+import com.tankorbox.kotlinbasemvp.data.database.repository.options.Options
+import com.tankorbox.kotlinbasemvp.data.database.repository.options.OptionsRepo
+import com.tankorbox.kotlinbasemvp.data.database.repository.questions.Question
+import com.tankorbox.kotlinbasemvp.data.database.repository.questions.QuestionRepo
+import com.tankorbox.kotlinbasemvp.data.network.ApiHelper
+import com.tankorbox.kotlinbasemvp.data.preferences.PreferenceHelper
+import com.tankorbox.kotlinbasemvp.ui.base.interactor.BaseInteractor
 import javax.inject.Inject
 
 class MainInteractor @Inject internal constructor(

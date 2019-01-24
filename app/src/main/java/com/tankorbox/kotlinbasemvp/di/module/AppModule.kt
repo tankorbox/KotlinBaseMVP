@@ -1,7 +1,23 @@
+package com.tankorbox.kotlinbasemvp.di.module
+
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
 import com.tankorbox.kotlinbasemvp.BuildConfig
+import com.tankorbox.kotlinbasemvp.data.database.AppDatabase
+import com.tankorbox.kotlinbasemvp.data.database.repository.options.OptionsRepo
+import com.tankorbox.kotlinbasemvp.data.database.repository.options.OptionsRepository
+import com.tankorbox.kotlinbasemvp.data.database.repository.questions.QuestionRepo
+import com.tankorbox.kotlinbasemvp.data.database.repository.questions.QuestionRepository
+import com.tankorbox.kotlinbasemvp.data.network.ApiHeader
+import com.tankorbox.kotlinbasemvp.data.network.ApiHelper
+import com.tankorbox.kotlinbasemvp.data.network.AppApiHelper
+import com.tankorbox.kotlinbasemvp.data.preferences.AppPreferenceHelper
+import com.tankorbox.kotlinbasemvp.data.preferences.PreferenceHelper
+import com.tankorbox.kotlinbasemvp.di.ApiKeyInfo
+import com.tankorbox.kotlinbasemvp.di.PreferenceInfo
+import com.tankorbox.kotlinbasemvp.util.AppConstants
+import com.tankorbox.kotlinbasemvp.util.SchedulerProvider
 import dagger.Module
 import dagger.Provides
 import io.reactivex.disposables.CompositeDisposable

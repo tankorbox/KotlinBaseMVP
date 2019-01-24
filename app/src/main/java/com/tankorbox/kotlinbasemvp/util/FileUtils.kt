@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.util
+
 import android.content.Context
 import java.io.IOException
 import java.nio.charset.Charset

@@ -1,9 +1,12 @@
+package com.tankorbox.kotlinbasemvp.ui.main.view
+
 import android.graphics.Color
 import android.widget.Button
 import android.widget.TextView
 import com.androidnetworking.widget.ANImageView
 import com.mindorks.placeholderview.annotations.*
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.ui.main.interactor.QuestionCardData
 
 @NonReusable
 @Layout(R.layout.card_layout)

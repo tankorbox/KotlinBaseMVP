@@ -1,3 +1,9 @@
+package com.tankorbox.kotlinbasemvp.ui.rate.presenter
+
+import com.tankorbox.kotlinbasemvp.ui.base.presenter.BasePresenter
+import com.tankorbox.kotlinbasemvp.ui.rate.interactor.RateUsMVPInterator
+import com.tankorbox.kotlinbasemvp.ui.rate.view.RateUsDialogMVPView
+import com.tankorbox.kotlinbasemvp.util.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 

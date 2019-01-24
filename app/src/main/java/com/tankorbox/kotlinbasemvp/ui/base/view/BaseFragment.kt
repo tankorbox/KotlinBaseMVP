@@ -1,8 +1,11 @@
+package com.tankorbox.kotlinbasemvp.ui.base.view
+
 import android.app.ProgressDialog
 import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.tankorbox.kotlinbasemvp.util.CommonUtil
 import dagger.android.support.AndroidSupportInjection
 
 abstract class BaseFragment : Fragment(), MVPView {

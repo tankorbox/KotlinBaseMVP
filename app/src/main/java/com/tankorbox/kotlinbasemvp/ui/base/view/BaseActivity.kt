@@ -1,6 +1,9 @@
+package com.tankorbox.kotlinbasemvp.ui.base.view
+
 import android.app.ProgressDialog
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.tankorbox.kotlinbasemvp.util.CommonUtil
 import dagger.android.AndroidInjection
 
 abstract class BaseActivity : AppCompatActivity(), MVPView, BaseFragment.CallBack {

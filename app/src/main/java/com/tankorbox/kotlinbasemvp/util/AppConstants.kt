@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.util
+
 object AppConstants {
 
     internal const val APP_DB_NAME = "mindorks_mvp.db"

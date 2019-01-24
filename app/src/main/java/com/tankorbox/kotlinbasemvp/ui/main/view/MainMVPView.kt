@@ -1,3 +1,8 @@
+package com.tankorbox.kotlinbasemvp.ui.main.view
+
+import com.tankorbox.kotlinbasemvp.ui.base.view.MVPView
+import com.tankorbox.kotlinbasemvp.ui.main.interactor.QuestionCardData
+
 interface MainMVPView : MVPView {
 
     fun inflateUserDetails(userDetails: Pair<String?, String?>)

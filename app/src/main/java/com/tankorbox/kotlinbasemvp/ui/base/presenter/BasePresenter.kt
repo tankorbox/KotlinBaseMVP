@@ -1,3 +1,8 @@
+package com.tankorbox.kotlinbasemvp.ui.base.presenter
+
+import com.tankorbox.kotlinbasemvp.ui.base.interactor.MVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.base.view.MVPView
+import com.tankorbox.kotlinbasemvp.util.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
 
 abstract class BasePresenter<V : MVPView, I : MVPInteractor> internal constructor(

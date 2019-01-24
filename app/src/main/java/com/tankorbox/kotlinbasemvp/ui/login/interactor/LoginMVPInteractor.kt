@@ -1,3 +1,8 @@
+package com.tankorbox.kotlinbasemvp.ui.login.interactor
+
+import com.tankorbox.kotlinbasemvp.data.network.LoginResponse
+import com.tankorbox.kotlinbasemvp.ui.base.interactor.MVPInteractor
+import com.tankorbox.kotlinbasemvp.util.AppConstants
 import io.reactivex.Observable
 
 interface LoginMVPInteractor : MVPInteractor {

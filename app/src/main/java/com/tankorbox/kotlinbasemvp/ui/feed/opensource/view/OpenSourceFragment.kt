@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.opensource.view
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +8,10 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.data.network.OpenSource
+import com.tankorbox.kotlinbasemvp.ui.base.view.BaseFragment
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.interactor.OpenSourceMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.presenter.OpenSourceMVPPresenter
 import kotlinx.android.synthetic.main.fragment_open_source.*
 import javax.inject.Inject
 

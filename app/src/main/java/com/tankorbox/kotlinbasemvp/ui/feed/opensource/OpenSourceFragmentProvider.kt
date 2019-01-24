@@ -1,3 +1,6 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.opensource
+
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.view.OpenSourceFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

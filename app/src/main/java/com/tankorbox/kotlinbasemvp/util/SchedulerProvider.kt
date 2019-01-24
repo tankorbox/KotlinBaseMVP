@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.util
+
 import io.reactivex.CompletableTransformer
 import io.reactivex.FlowableTransformer
 import io.reactivex.MaybeTransformer

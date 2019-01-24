@@ -1,9 +1,12 @@
+package com.tankorbox.kotlinbasemvp.data.database.repository.options
+
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
+import com.tankorbox.kotlinbasemvp.data.database.repository.questions.Question
 
 @Entity(tableName = "options", foreignKeys = [(ForeignKey(entity = Question::class,
         parentColumns = arrayOf("id"),

@@ -1,6 +1,17 @@
+package com.tankorbox.kotlinbasemvp.ui.splash.interactor
+
 import android.content.Context
 import com.google.gson.GsonBuilder
 import com.google.gson.internal.`$Gson$Types`
+import com.tankorbox.kotlinbasemvp.data.database.repository.options.Options
+import com.tankorbox.kotlinbasemvp.data.database.repository.options.OptionsRepo
+import com.tankorbox.kotlinbasemvp.data.database.repository.questions.Question
+import com.tankorbox.kotlinbasemvp.data.database.repository.questions.QuestionRepo
+import com.tankorbox.kotlinbasemvp.data.network.ApiHelper
+import com.tankorbox.kotlinbasemvp.data.preferences.PreferenceHelper
+import com.tankorbox.kotlinbasemvp.ui.base.interactor.BaseInteractor
+import com.tankorbox.kotlinbasemvp.util.AppConstants
+import com.tankorbox.kotlinbasemvp.util.FileUtils
 import io.reactivex.Observable
 import javax.inject.Inject
 

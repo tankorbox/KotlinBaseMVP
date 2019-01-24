@@ -1,3 +1,10 @@
+package com.tankorbox.kotlinbasemvp.ui.rate
+
+import com.tankorbox.kotlinbasemvp.ui.rate.interactor.RateUsInteractor
+import com.tankorbox.kotlinbasemvp.ui.rate.interactor.RateUsMVPInterator
+import com.tankorbox.kotlinbasemvp.ui.rate.presenter.RateUsMVPPresenter
+import com.tankorbox.kotlinbasemvp.ui.rate.presenter.RateUsPresenter
+import com.tankorbox.kotlinbasemvp.ui.rate.view.RateUsDialogMVPView
 import dagger.Module
 import dagger.Provides
 

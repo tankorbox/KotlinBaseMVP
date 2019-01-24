@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.ui.main.view
+
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -9,6 +11,17 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationView
 import com.mindorks.placeholderview.SwipeDecor
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.ui.about.view.AboutFragment
+import com.tankorbox.kotlinbasemvp.ui.base.view.BaseActivity
+import com.tankorbox.kotlinbasemvp.ui.feed.view.FeedActivity
+import com.tankorbox.kotlinbasemvp.ui.login.view.LoginActivity
+import com.tankorbox.kotlinbasemvp.ui.main.interactor.MainMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.main.interactor.QuestionCardData
+import com.tankorbox.kotlinbasemvp.ui.main.presenter.MainMVPPresenter
+import com.tankorbox.kotlinbasemvp.ui.rate.view.RateUsDialog
+import com.tankorbox.kotlinbasemvp.util.ScreenUtils
+import com.tankorbox.kotlinbasemvp.util.extension.addFragment
+import com.tankorbox.kotlinbasemvp.util.extension.removeFragment
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector
 import kotlinx.android.synthetic.main.activity_feed.*

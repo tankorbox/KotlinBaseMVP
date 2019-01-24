@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.data.database.repository.options
+
 import io.reactivex.Observable
 import io.reactivex.Single
 import javax.inject.Inject

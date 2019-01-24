@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.util.extension
+
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.tankorbox.kotlinbasemvp.R

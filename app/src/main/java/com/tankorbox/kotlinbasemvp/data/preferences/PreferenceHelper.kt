@@ -1,3 +1,7 @@
+package com.tankorbox.kotlinbasemvp.data.preferences
+
+import com.tankorbox.kotlinbasemvp.util.AppConstants
+
 interface PreferenceHelper {
 
     fun getCurrentUserLoggedInMode(): Int

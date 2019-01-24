@@ -1,6 +1,13 @@
+package com.tankorbox.kotlinbasemvp.ui.splash.view
+
 import android.content.Intent
 import android.os.Bundle
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.ui.base.view.BaseActivity
+import com.tankorbox.kotlinbasemvp.ui.login.view.LoginActivity
+import com.tankorbox.kotlinbasemvp.ui.main.view.MainActivity
+import com.tankorbox.kotlinbasemvp.ui.splash.interactor.SplashMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.splash.presenter.SplashMVPPresenter
 import javax.inject.Inject
 
 class SplashMVPActivity : BaseActivity(), SplashMVPView {

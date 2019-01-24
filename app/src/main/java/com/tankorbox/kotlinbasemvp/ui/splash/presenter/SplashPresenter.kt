@@ -1,3 +1,9 @@
+package com.tankorbox.kotlinbasemvp.ui.splash.presenter
+
+import com.tankorbox.kotlinbasemvp.ui.base.presenter.BasePresenter
+import com.tankorbox.kotlinbasemvp.ui.splash.interactor.SplashMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.splash.view.SplashMVPView
+import com.tankorbox.kotlinbasemvp.util.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 

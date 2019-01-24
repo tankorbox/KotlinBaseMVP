@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.data.database.repository.questions
+
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey

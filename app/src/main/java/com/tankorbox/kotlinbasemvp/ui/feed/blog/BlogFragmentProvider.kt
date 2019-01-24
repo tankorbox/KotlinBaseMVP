@@ -1,3 +1,6 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.blog
+
+import com.tankorbox.kotlinbasemvp.ui.feed.blog.view.BlogFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

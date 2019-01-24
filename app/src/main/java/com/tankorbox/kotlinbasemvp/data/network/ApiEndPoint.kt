@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.data.network
+
 import com.tankorbox.kotlinbasemvp.BuildConfig
 
 object ApiEndPoint {

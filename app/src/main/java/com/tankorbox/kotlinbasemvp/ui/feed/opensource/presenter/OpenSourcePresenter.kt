@@ -1,3 +1,9 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.opensource.presenter
+
+import com.tankorbox.kotlinbasemvp.ui.base.presenter.BasePresenter
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.interactor.OpenSourceMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.view.OpenSourceMVPView
+import com.tankorbox.kotlinbasemvp.util.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 

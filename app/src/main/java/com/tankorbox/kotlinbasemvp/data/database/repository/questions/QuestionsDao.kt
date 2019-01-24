@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.data.database.repository.questions
+
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy

@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.ui.rate.view
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -5,6 +7,9 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.ui.base.view.BaseDialogView
+import com.tankorbox.kotlinbasemvp.ui.rate.interactor.RateUsMVPInterator
+import com.tankorbox.kotlinbasemvp.ui.rate.presenter.RateUsMVPPresenter
 import kotlinx.android.synthetic.main.dialog_rate_us.*
 import javax.inject.Inject
 

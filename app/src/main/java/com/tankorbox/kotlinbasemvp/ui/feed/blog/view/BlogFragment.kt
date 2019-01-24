@@ -1,3 +1,5 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.blog.view
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +8,10 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.tankorbox.kotlinbasemvp.R
+import com.tankorbox.kotlinbasemvp.data.network.Blog
+import com.tankorbox.kotlinbasemvp.ui.base.view.BaseFragment
+import com.tankorbox.kotlinbasemvp.ui.feed.blog.interactor.BlogMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.feed.blog.presenter.BlogMVPPresenter
 import kotlinx.android.synthetic.main.fragment_blog.*
 import javax.inject.Inject
 

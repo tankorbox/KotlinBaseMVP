@@ -1,5 +1,8 @@
+package com.tankorbox.kotlinbasemvp.data.network
+
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
+import com.tankorbox.kotlinbasemvp.di.ApiKeyInfo
 import javax.inject.Inject
 
 class ApiHeader @Inject constructor(

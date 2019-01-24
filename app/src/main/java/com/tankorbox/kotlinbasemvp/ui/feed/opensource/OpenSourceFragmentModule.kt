@@ -1,4 +1,13 @@
+package com.tankorbox.kotlinbasemvp.ui.feed.opensource
+
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.interactor.OpenSourceInteractor
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.interactor.OpenSourceMVPInteractor
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.presenter.OpenSourceMVPPresenter
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.presenter.OpenSourcePresenter
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.view.OpenSourceAdapter
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.view.OpenSourceFragment
+import com.tankorbox.kotlinbasemvp.ui.feed.opensource.view.OpenSourceMVPView
 import dagger.Module
 import dagger.Provides
 
