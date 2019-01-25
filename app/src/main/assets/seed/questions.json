@@ -23,15 +23,5 @@
     "id": 5,
     "question_text": "Why should we follow MVP?",
     "question_img_url": null
-  },
-  {
-    "id": 6,
-    "question_text": "Who is this person?",
-    "question_img_url": "https://avatars3.githubusercontent.com/u/1024025"
-  },
-  {
-    "id": 7,
-    "question_text": "Which company's logo is this?",
-    "question_img_url": "https://janishar.github.io/images/mindorks-logo-small.png"
   }
 ]

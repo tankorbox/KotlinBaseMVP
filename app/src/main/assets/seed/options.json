@@ -73,35 +73,5 @@
     "option_text": "It provides reusable code.",
     "question_id": 5,
     "is_correct": true
-  },
-  {
-    "option_text": "Linus Torvalds",
-    "question_id": 6,
-    "is_correct": true
-  },
-  {
-    "option_text": "Janishar Ali",
-    "question_id": 6,
-    "is_correct": false
-  },
-  {
-    "option_text": "Amit Shekhar",
-    "question_id": 6,
-    "is_correct": false
-  },
-  {
-    "option_text": "None",
-    "question_id": 7,
-    "is_correct": false
-  },
-  {
-    "option_text": "Mindorks",
-    "question_id": 7,
-    "is_correct": true
-  },
-  {
-    "option_text": "Google",
-    "question_id": 7,
-    "is_correct": false
   }
 ]

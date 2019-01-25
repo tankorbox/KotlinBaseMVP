@@ -2,8 +2,8 @@ package com.tankorbox.kotlinbasemvp.util
 
 object AppConstants {
 
-    internal const val APP_DB_NAME = "mindorks_mvp.db"
-    internal const val PREF_NAME = "mindorks_pref"
+    internal const val APP_DB_NAME = "tankorbox.db"
+    internal const val PREF_NAME = "tankorbox_pref"
     internal const val SEED_DATABASE_QUESTIONS = "seed/questions.json"
     internal const val SEED_DATABASE_OPTIONS = "seed/options.json"
     internal const val EMPTY_EMAIL_ERROR = 1001

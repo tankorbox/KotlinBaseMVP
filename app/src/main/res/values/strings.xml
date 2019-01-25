@@ -1,6 +1,6 @@
 <resources>
-  <string name="app_name">Kotlin MVP</string>
-  <string name="login_dummy">Login Dummy</string>
+  <string name="app_name">Hello Kotlin</string>
+  <string name="login_dummy">Login</string>
   <string name="email">Email</string>
   <string name="password">Password</string>
   <string name="login">Login</string>
@@ -21,16 +21,16 @@
   <string name="title_activity_navigation">NavigationActivity</string>
 
   <string name="project_info">This sample app implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking and PlaceholderView</string>
-  <string name="link_mvp_blog">1. https://blog.mindorks.com</string>
-  <string name="link_mvp_repo">2. https://github.com/MindorksOpenSource/android-mvp-architecture</string>
-  <string name="link_mindorks_blog">3. https://blog.mindorks.com</string>
-  <string name="link_mindorks_repo">4. https://github.com/MindorksOpenSource</string>
+  <string name="link_mvp_blog">tankorbox@github.com</string>
+  <string name="link_mvp_repo">tankorbox@github.com</string>
+  <string name="link_blog">tankorbox@github.com</string>
+  <string name="link_repo">tankorbox@github.com</string>
   <string name="version">"version"</string>
   <string name="title">Feed</string>
   <string name="blogs">Blogs</string>
   <string name="open_source">Open Source</string>
   <string name="rating_message">Please let us know, how can we improve ourselves?</string>
-  <string name="rating_play_store_redirect_message_line_1">Awesome! Thank you for the 5 stars</string>
+  <string name="rating_play_store_redirect_message_line_1">Awesome! Thank you</string>
   <string name="rating_play_store_redirect_message_line_2">Please help others, in knowing some good things about this app.</string>
   <string name="later">Later</string>
   <string name="submit">Submit</string>

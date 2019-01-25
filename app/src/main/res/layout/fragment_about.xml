@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:padding="10dp"
-            android:text="@string/link_mindorks_blog"
+            android:text="@string/link_blog"
             android:textColor="@color/white"/>
 
     <TextView
@@ -83,6 +83,6 @@
             android:layout_height="wrap_content"
             android:autoLink="web"
             android:padding="10dp"
-            android:text="@string/link_mindorks_repo"
+            android:text="@string/link_repo"
             android:textColor="@color/white"/>
 </LinearLayout>
